@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Escolha o futuro!</title>
+    <style>
+                 .hidden {
+            display: none;
+        }
+        .caixa-principal
+         {
+            text-align: center;
+            margin-top: 20px;
+                    }
+        .caixa-perguntas, .caixa-alternativas, .caixa-resultado {
+            margin: 20px;
+        }
+        button {
+            display: block;
+            margin: 10px auto;
+            padding: 10px;
+                  font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="caixa-principal">
+
+        <h1>Qual curso escolher?</h1>
+                <button class="iniciar-btn">play no clebinho</button>
+        <div class="caixa-perguntas hidden"></div>
+             <div class="caixa-alternativas hidden"></div>
+         <div class="caixa-resultado hidden">
+
+            <p class="texto-resultado"></p>
+            <button class="novamente-btn">jogar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
